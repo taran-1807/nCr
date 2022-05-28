@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//function for factorial
 int factorial(int n){
     
     int fact = 1;
@@ -12,6 +13,7 @@ int factorial(int n){
     return fact;
 }
 
+//function to return nCr or given variables
 int nCr(int n, int r){
     
     int num = factorial(n);
